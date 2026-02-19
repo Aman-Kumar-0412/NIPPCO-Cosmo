@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Nippco Cosmo Dental | Dr. Sudesh Kumar</title>
+
+  <style>
+    *{margin:0;padding:0;box-sizing:border-box;}
+    body{font-family:Arial;background:#f4f8ff;color:#222;line-height:1.6;}
+
+    header{background:#0f2a6b;color:white;padding:20px;text-align:center;}
+    nav{background:#1e40af;display:flex;justify-content:center;flex-wrap:wrap;}
+    nav a{color:white;padding:14px 20px;text-decoration:none;font-weight:bold;}
+    nav a:hover{background:#162f80;}
+
+    .hero{
+      background:linear-gradient(rgba(15,42,107,.75),rgba(15,42,107,.75)),
+      url('https://images.unsplash.com/photo-1588776814546-ec7e2e2c6f7f');
+      background-size:cover;background-position:center;color:white;
+      padding:90px 20px;text-align:center;
+    }
+
+    .btn{
+      display:inline-block;background:#22c55e;color:white;
+      padding:12px 22px;margin-top:15px;border-radius:8px;
+      text-decoration:none;font-weight:bold;
+    }
+
+    section{padding:60px 20px;max-width:1100px;margin:auto;}
+    h2{color:#0f2a6b;margin-bottom:20px;text-align:center;}
+
+    .grid{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:20px;
+    }
+
+    .card{
+      background:white;padding:20px;border-radius:12px;
+      box-shadow:0 4px 12px rgba(0,0,0,.08);text-align:center;
+    }
+
+    .gallery img{width:100%;border-radius:12px;}
+
+    form input,form textarea{
+      width:100%;padding:10px;margin:8px 0;
+      border-radius:8px;border:1px solid #ccc;
+    }
+
+    form button{
+      background:#1e40af;color:white;padding:12px;
+      border:none;border-radius:8px;cursor:pointer;
+    }
+
+    footer{background:#0f2a6b;color:white;text-align:center;padding:18px;margin-top:40px;}
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>Nippco Cosmo Dental</h1>
+  <p>Advanced Multispeciality Dental Care by Dr. Sudesh Kumar (MDS)</p>
+</header>
+
+<nav>
+  <a href="#home">Home</a>
+  <a href="#about">About</a>
+  <a href="#services">Services</a>
+  <a href="#gallery">Gallery</a>
+  <a href="#contact">Contact</a>
+</nav>
+
+<section class="hero" id="home">
+  <h1>Healthy Smile, Beautiful Life</h1>
+  <p>Modern, painless and affordable dental treatments in Samastipur.</p>
+  <a class="btn" href="https://wa.me/917017801886" target="_blank">Book on WhatsApp</a>
+</section>
+
+<section id="about">
+  <h2>About Doctor</h2>
+  <div class="card">
+    <p><strong>Dr. Sudesh Kumar</strong> – MDS from Swami Vivekanand Subharti University, Meerut.  
+    Providing advanced, painless and hygienic dental care.</p>
+  </div>
+</section>
+
+<section id="services">
+  <h2>Our Services</h2>
+  <div class="grid">
+    <div class="card">Dental Checkup</div>
+    <div class="card">Teeth Cleaning</div>
+    <div class="card">Root Canal Treatment</div>
+    <div class="card">Dental Implants</div>
+    <div class="card">Teeth Whitening</div>
+    <div class="card">Braces & Aligners</div>
+    <div class="card">Mouth Cancer Screening</div>
+    <div class="card">Dermatology Consultation</div>
+  </div>
+</section>
+
+<section id="gallery">
+  <h2>Clinic Gallery</h2>
+  <div class="grid gallery">
+    <img src="clinic1.jpg" alt="">
+    <img src="clinic2.jpg" alt="">
+    <img src="clinic3.jpg" alt="">
+    <img src="clinic4.jpg" alt="">
+    <img src="clinic5.jpg" alt="">
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact & Appointment</h2>
+  <div class="card">
+    <p><strong>Phone:</strong> 07017801886</p>
+    <p><strong>Email:</strong> drsudesh16@gmail.com</p>
+    <p><strong>Address:</strong> Ground Floor, Prem Bhawan, Old Women's College, Ward No-13 (New 34), Road, Kashipur, Samastipur, Bihar 848101</p>
+    <p><strong>Timings:</strong> Mon–Sat 9AM–6PM | Sun 10AM–5PM</p>
+
+    <!-- ✅ WORKING GOOGLE MAP -->
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3590.396944108834!2d85.77318897540356!3d25.856409877292503!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed91cc939c0a03%3A0x63523e6fecb1d98c!2snippco%20cosmo-dental!5e0!3m2!1sen!2sin!4v1771501985763!5m2!1sen!2sin"
+      width="100%" height="300"
+      style="border:0;border-radius:12px;margin:15px 0;"
+      allowfullscreen loading="lazy">
+    </iframe>
+
+    <form action="mailto:drsudesh16@gmail.com" method="post" enctype="text/plain">
+      <input type="text" placeholder="Your Name" required>
+      <input type="tel" placeholder="Phone Number" required>
+      <textarea placeholder="Message"></textarea>
+      <button type="submit">Send Appointment Request</button>
+    </form>
+
+    <a class="btn" href="https://wa.me/917017801886" target="_blank">Chat on WhatsApp</a>
+  </div>
+</section>
+
+<footer>
+  © 2026 Nippco Cosmo Dental. All rights reserved.
+</footer>
+
+</body>
+</html>
